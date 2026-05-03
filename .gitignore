@@ -1,0 +1,12 @@
+# Build e temporários
+bin/
+obj/
+.vs/
+*.user
+
+
+# Logs
+*.log
+
+# Configurações sensíveis
+appsettings.Development.json
