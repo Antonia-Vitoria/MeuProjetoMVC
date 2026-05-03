@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<div class="hero-section">
+    <div class="row align-items-center">
+        <div class="col-lg-7">
+            <h1>Clínica veterinária LHPet</h1>
+            <p>Bem-vindo à nossa clínica. Cadastre seu cliente e o paciente de forma rápida e segura, sem precisar sair da página inicial.</p>
+            <div class="mt-4">
+                <a class="btn btn-primary btn-lg" asp-controller="Clientes" asp-action="Create">Cadastrar Cliente</a>
+            </div>
+        </div>
+        <div class="col-lg-5 text-center mt-4 mt-lg-0">
+            <div class="hero-card p-4">
+                <h3>Atendimento para cães e gatos</h3>
+                <p class="mb-3">Cuidamos do seu pet com carinho, oferecendo cadastro rápido e controle completo dos clientes.</p>
+                <div class="d-flex justify-content-center gap-2">
+                    <span class="badge badge-pill badge-soft">Vacinas</span>
+                    <span class="badge badge-pill badge-soft">Consultas</span>
+                    <span class="badge badge-pill badge-soft">Emergência</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="service-row row gx-4 gy-4 mb-4">
+    <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+            <h4>Cadastro rápido</h4>
+            <p>Registre cliente, CPF, email e paciente em um único formulário.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+            <h4>Gestão eficiente</h4>
+            <p>Acompanhe clientes e pacientes com clareza, direto pela área de clientes.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+            <h4>Suporte confiável</h4>
+            <p>Use a plataforma para manter o histórico de clientes e o contato atualizado.</p>
+        </div>
+    </div>
+</div>
+

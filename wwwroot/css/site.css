@@ -1,0 +1,218 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 80px;
+  background: radial-gradient(circle at top center, #f2fcf7 0%, #ffffff 45%, #ecf7f2 100%);
+  color: #22333b;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.98);
+}
+
+.navbar-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #174d41;
+}
+
+.navbar-subtitle {
+  font-size: 0.8rem;
+  color: #4f6b61;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  color: #34514b !important;
+}
+
+.nav-link:hover {
+  color: #1f6f5a !important;
+}
+
+.main-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card-custom {
+  border: 1px solid rgba(31, 111, 90, 0.15);
+  border-radius: 1rem;
+  box-shadow: 0 14px 35px rgba(31, 111, 90, 0.08);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #effcf5 0%, #ffffff 100%);
+  border-radius: 1.25rem;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #174d41;
+}
+
+.hero-section p {
+  color: #3c5a51;
+  font-size: 1.1rem;
+  max-width: 620px;
+}
+
+.hero-card {
+  background: #ffffff;
+  border: 1px solid rgba(31, 111, 90, 0.14);
+  border-radius: 1rem;
+  min-height: 250px;
+}
+
+.hero-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #114438;
+}
+
+.hero-card p {
+  color: #475b52;
+}
+
+.badge-soft {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  background-color: rgba(31, 111, 90, 0.1);
+  color: #1f6f5a;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 1px solid rgba(31, 111, 90, 0.1);
+  box-shadow: 0 12px 28px rgba(31, 111, 90, 0.05);
+}
+
+.service-card h4 {
+  color: #1f6f5a;
+  margin-bottom: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #1f6f5a;
+  border-color: #1f6f5a;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #174d41;
+  border-color: #174d41;
+}
+
+.btn-outline-secondary {
+  color: #1f6f5a;
+  border-color: #1f6f5a;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+  background-color: rgba(31, 111, 90, 0.08);
+}
+
+.table {
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+.table thead th {
+  border-bottom: 2px solid rgba(31, 111, 90, 0.12);
+  color: #1f6f5a;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(31, 111, 90, 0.05);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #1f4d44;
+}
+
+.form-control {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(31, 111, 90, 0.2);
+}
+
+.page-heading {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #ffffff;
+}
+
+.footer-contact {
+  color: #34514b;
+  margin-bottom: 0.25rem;
+}
+
+.footer a {
+  color: #1f6f5a;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.patient-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f6fbf7 100%);
+}
+
+.patient-card dt {
+  font-size: 0.95rem;
+}
+
+.patient-card dd {
+  font-size: 1rem;
+}
+
+.client-card {
+  border: 1px solid rgba(31, 111, 90, 0.15);
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(31, 111, 90, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.client-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(31, 111, 90, 0.12);
+}
+
+.client-card .card-title {
+  color: #1f6f5a;
+  margin-bottom: 1rem;
+}
+
+.client-card .card-text {
+  color: #34514b;
+  line-height: 1.5;
+}
+
+.client-card .btn {
+  border-radius: 0.5rem;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
